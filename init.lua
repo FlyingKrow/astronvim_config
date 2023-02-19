@@ -30,7 +30,7 @@ local config = {
                 -- },
         },
         -- Set colorscheme to use
-        colorscheme = "gruvbox",
+        colorscheme = "catppuccin-mocha",
         -- Add highlight groups in any theme
         highlights = {
                 -- init = { -- this table overrides highlights in all themes
@@ -237,6 +237,7 @@ local config = {
                         "elkowar/yuck.vim",
                         "nvim-tree/nvim-tree.lua",
                         "morhetz/gruvbox",
+                        "catppuccin/nvim",
                         ["nvim-neo-tree/neo-tree.nvim"] = { disable = true },
                         -- You can disable default plugins as follows:
                         -- ["goolord/alpha-nvim"] = { disable = true },
